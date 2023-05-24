@@ -1,0 +1,19 @@
+body {
+    margin: 50px;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+  }
+
+  .logo {
+    top: 0px;
+    position: absolute;
+    width: 4in;
+   }
+  
+  #logoup {
+  
+      display: flex;
+      justify-content: center;
+  
+  } 

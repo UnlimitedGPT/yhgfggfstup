@@ -1,0 +1,140 @@
+body {
+  padding: 0;
+  font-family: monospace, sans-serif;
+  display: block;
+  margin-top: 1.5in;
+  background-color: #000313;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  margin-top: -46px;
+}
+label {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+input,
+textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+}
+button {
+  padding: 10px 20px;
+  background-color: #ffcc4d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #ffbf1d;
+}
+#status-message {
+  max-width: 500px;
+  margin: 20px auto;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+.logo {
+  top: 0px;
+  position: absolute;
+  width: 4in;
+ }
+
+#logoup {
+
+  display: flex;
+  justify-content: center;
+
+} 
+
+.feedback-section {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+
+}
+h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: rgb(255, 255, 255);
+}
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: white;
+}
+
+/* Media queries for smaller screen sizes */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+  .feedback-section {
+    max-width: fit-content;
+    margin: 65px;
+    text-align: center;
+    font-family: monospace;
+
+  
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    zoom: 170%;
+}
+
+.logo {
+  top: 0px;
+  position: absolute;
+  width: 5in;
+ }
+
+
+}
+
+/* Media queries for even smaller screen sizes */
+@media screen and (max-device-width: 480px)
+and (orientation: portrait){
+
+    .feedback-section {
+      max-width: fit-content;
+      margin: 65px;
+      text-align: center;
+  
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    zoom: 170%;
+}
+
+.logo {
+  top: 0px;
+  position: absolute;
+  width: 5in;
+ }
+
+
+  
+}
