@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Contact Us</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style/style2.css" />
+
+        <!-- For iOS devices -->
+    <link rel="apple-touch-icon" sizes="180x180" href="StupidGPT-180.ico" />
+
+    <!-- For older iOS devices -->
+    <link rel="apple-touch-icon" sizes="152x152" href="StupidGPT-152.ico" />
+
+    <!-- For Android devices -->
+    <link rel="icon" sizes="192x192" href="StupidGPT-192.ico" />
+
+    <!-- For Windows devices -->
+    <link rel="icon" sizes="16x16" href="StupidGPT-16.ico" />
+    
+    <meta name="description" content="Contact Us." />
+    <meta name="robots" content="index,follow" />
+  </head>
+  <body>
+
+    <div id="logoup">
+      <a href="/" style="display: contents"
+        ><img src="StupidGPT V2 .png" alt="Logo" class="logo"
+      /></a>
+    </div>
+
+    <form id="contact-form" method="POST">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required />
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required />
+      <label for="message">Message</label>
+      <textarea id="message" name="message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <div id="status-message"></div>
+    <script src="contact-javascript.js"></script>
+    <div class="feedback-section">
+    </div>
+  </body>
+</html>
