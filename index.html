@@ -117,6 +117,24 @@
     });
 
     </script>
+      <script>
+          document.addEventListener('DOMContentLoaded', function() {
+      const menuToggle = document.getElementById('menu-toggle');
+      const menuList = document.getElementById('menu-list');
+
+      menuToggle.addEventListener('change', function() {
+        if (menuToggle.checked) {
+          menuList.style.pointerEvents = 'auto';
+        } else {
+          menuList.style.pointerEvents = 'none';
+        }
+      });
+
+      // Set initial state
+      menuList.style.pointerEvents = menuToggle.checked ? 'auto' : 'none';
+    });
+
+    </script>
 
 <!-- <div class="popup" id="popup"  >
   <h2>We Need Your Help!</h2>
